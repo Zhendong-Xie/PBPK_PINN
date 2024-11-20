@@ -146,7 +146,7 @@ if __name__ == "__main__":
             solution.append(r.y)
         # Convert solution to a numpy array for easier handling
         solution = np.array(solution)
-        print(solution)
+
         plt.figure()
         plt.plot(time_points, solution)
         legend = ["Plasma", "Liver", "Spleen", "GI", "Kidney", "Heart", "Lungs", 
